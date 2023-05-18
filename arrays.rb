@@ -3,6 +3,11 @@ cities = ["Denver", "Los Angeles", "San Francisco", "Arcata"]
 # And returns the remaining elements to the Array.
 puts cities.pop
 
+puts cities [0]
+# This will print out the city "Denver" because although it is the first element in the Array, it is in the index position 0.
+puts cities [2]
+# This will print out the city "San Francisco" because although it is the third element in the Array, it is in the index postion 2
+
 whole_numbers = [1, 2, 3, 4]
 # The line of code below calls for the 'push' method on the `whole_numbers` Array. This method will print the elements listed in the Array
 # `whole_numbers` which we are calling for. 
