@@ -13,6 +13,11 @@ whole_numbers = [1, 2, 3, 4]
 # `whole_numbers` which we are calling for. 
 puts whole_numbers.push
 
+# The line of code below calls for the `clear` method and it will clear all elements from the the Array `whole_numbers`. NOTE: You must
+# Remove the line of code on line 14, `puts whole_numbers.push` for this methods to run because of the order is is listed in this file.
+puts whole_numbers.clear
+puts whole_numbers
+
 bank_balances = [32.33, 43.44, 54.44, 65.55]
 # The line of code below calls for the `shift` method on the `bank_balances` Array. This method removes the first element of the Array and
 # Returns the reamining elements to the Array. 
@@ -23,4 +28,5 @@ online = [true, false, true, false]
 # The line of code below calls for the `unshift` method for the `online` Array. This method adds like given object, `true` in this case, 
 # To the Array in front of the element in the index position 0 and prints the new Array. 
 puts online.unshift true
+
 
